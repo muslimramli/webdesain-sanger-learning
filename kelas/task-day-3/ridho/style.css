@@ -1,0 +1,111 @@
+/* ini adalah file css eksternal */
+.body-ku{
+    background: rgba(60,166,195,1);
+    background: -moz-linear-gradient(left, rgba(60,166,195,1) 0%, rgba(57,147,172,1) 41%, rgba(48,117,136,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(60,166,195,1)), color-stop(41%, rgba(57,147,172,1)), color-stop(100%, rgba(48,117,136,1)));
+    background: -webkit-linear-gradient(left, rgba(60,166,195,1) 0%, rgba(57,147,172,1) 41%, rgba(48,117,136,1) 100%);
+    background: -o-linear-gradient(left, rgba(60,166,195,1) 0%, rgba(57,147,172,1) 41%, rgba(48,117,136,1) 100%);
+    background: -ms-linear-gradient(left, rgba(60,166,195,1) 0%, rgba(57,147,172,1) 41%, rgba(48,117,136,1) 100%);
+    background: linear-gradient(to right, rgba(60,166,195,1) 0%, rgba(57,147,172,1) 41%, rgba(48,117,136,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3ca6c3', endColorstr='#307588', GradientType=1 );   
+}
+
+.kotakbesar{
+    width: 700px;
+    height: 500px;
+    margin: auto;
+    margin-top: 70px;
+}
+
+.kotak{
+    width: 50%;
+    height: 500px;
+    background-color:#f7f7f7;
+    float: left;
+
+    
+    
+    /* kasih shadow googling shadow generator dari css matic */
+    border-radius: 10px 0px 0px 10px;
+-moz-border-radius: 10px 0px 0px 10px;
+-webkit-border-radius: 10px 0px 0px 10px;
+border: 0px solid #000000;
+}
+
+.kotak2{
+    width: 50%;
+    height: 500px;
+    background-color:#81c0d1;
+    float: right;
+
+
+    border-radius: 0px 10px 10px 0px;
+-moz-border-radius: 0px 10px 10px 0px;
+-webkit-border-radius: 0px 10px 10px 0px;
+border: 0px solid #000000;
+    
+}
+.input{
+    margin-bottom: 20px;
+    font-size: 14px;
+    padding: 8px;
+    border: none;
+    width: 330px;
+
+}
+
+.input2{
+    margin-bottom: 20px;
+    font-size: 14px;
+    padding: 8px;
+    border: none;
+    width: 330px;
+}
+
+.buttonku{
+    background-color:  #0F89C6;
+    width: 70px;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    
+}
+
+/* untuk ngasih efek warna berganti saat di sorot */
+.buttonku:hover{
+    background-color: black;
+}
+
+.judul{
+    font-size: 24px;
+    color: grey;
+    margin-bottom: 10px;
+
+}
+
+.kotakdalam1{
+    width:85%;
+    height:98%;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+.pilih option{
+    height: 20px;
+    background: none;
+    border: none;
+    outline: none;
+}
+
+.button{
+background-color:white;
+  border: none;
+  color: white;
+  padding: 8px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  border-radius: 8px;
+}

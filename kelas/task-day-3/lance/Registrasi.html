@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class = "kombinasikotak">
+        <div class = "kotak1">
+            <div class = "displaykotak1">
+                <h1 id="judul1">General Information</h1>
+                    <div class="input">
+                        <select id="title" required>
+                            <option value="" disabled selected>Title</option>
+                            <option value="Mr">Mr</option>
+                            <option value="Mrs">Mrs</option>
+                            <option value="Sir">Sir</option>
+                            <option value="Miss">Miss</option>
+                        </select>
+                    </div>
+                    <div class="input">
+                        <input id="firstname" type="text" placeholder="First Name">
+                        <input id="lastname" type="text" placeholder="Last Name">
+                    </div>
+                    <div class="input">
+                        <select id="position">
+                            <option value="" disabled selected>Position</option>
+                            <option value="manager">Manager</option>
+                            <option value="director">director</option>
+                        </select>
+                    </div>
+                    <div class="input">
+                        <input id="company" type="text" placeholder="Company">
+                    </div>
+                    <div class="input">
+                        <input id="businessarena" type="text" placeholder="Business Arena">
+                        <select id="employees">
+                            <option value="" disabled selected>Employees</option>
+                            <option value="fulltime">Full Time</option>
+                            <option value="parttime">Part Time</option>
+                        </select>
+                    </div>
+            </div>
+        </div>
+    
+        <div class = "box2">
+            <div class = "displaykotak2">
+                <h1 id="judul2">Contact Details</h1>
+
+                <p>Street + Nr</p>
+
+                <div class="input">
+                    <input id="additionalinformation" type="text" placeholder="Additional Information">
+                </div>
+    
+                <div class="input">
+                    <input id="zipcode" type="text" placeholder="Zip Code">
+                    <select id="place">
+                        <option value="" disabled selected>Place</option>
+                        <option value="Sumatera">Sumatera</option>
+                        <option value="Kalimantan">Kalimantan</option>
+                    </select>
+                </div>
+    
+                <div class="input">
+                    <select id="country">
+                        <option value="" disabled selected>Country</option>
+                        <option value="Indonesia">Indonesia</option>
+                        <option value="Singapore">Singapore</option>
+                    </select>
+                </div>
+    
+                <div class="input">
+                    <input id="code" type="text" placeholder="Code +">
+                    <input id="phonenumber" type="text" placeholder="Phone Number">
+                </div>
+    
+                <div class="input">
+                    <input type="radio" id="accepted" name="accepted" value="accepted">
+                    <label for="accepted">I do accept the <u><b>Terms and Conditions</b></u> of your site</label>
+                </div>
+    
+                <div class = "input">
+                    <button>
+                        Register
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

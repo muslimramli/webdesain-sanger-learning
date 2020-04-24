@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+*{
+  font-family: 'Josefin Sans', sans-serif;
+}
+.container{
+  position: absolute;
+  top: 17%;
+  left: 17%;
+  transform: translate(-50%,-50%);
+
+}
+
+body{
+	background: linear-gradient(210deg,#fc9a57 0%,#dd45d3 40.13%,#943cff 90%); 
+}
+.box{
+	width: 650px;
+	height: 650px;
+	background-color: white;
+  	float: left;
+  	position: absolute;
+  	border-top-left-radius: 10px;
+  	border-bottom-left-radius: 10px;
+  	-webkit-box-shadow: 10px 10px 33px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 33px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 33px 0px rgba(0,0,0,0.75);
+
+}
+.tex{
+	width: 365px;
+}
+.nama input{
+	width: 160px;
+}
+.input{
+	width: 404px;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid #1e1f26;
+	padding: 12px 20px;
+
+}
+.input1{
+	width: 200px;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid #1e1f26;
+	padding: 12px 20px;
+}
+.text input{
+	margin-top: 25px;
+	border: none;
+	background: none;
+	border-bottom: 1px solid #1e1f26;
+	outline: none;
+	padding: 12px 20px;
+}
+.text{
+margin-left: 120px;
+}
+
+.input3{
+	width: 404px;
+	margin-top: 25px;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid #1e1f26;
+	padding: 12px 20px;
+}
+.box h1{
+	margin-left: 100px;
+	color: #4b4276;
+	margin-top: 40px;
+}
+
+
+
+/kotak ke 2/
+
+
+
+.box2{
+	width: 650px;
+	height: 650px;
+	background-color: #4b4276;
+  	margin-left: 650px;
+  	position: absolute;
+  	border-top-right-radius: 10px;
+  	border-bottom-right-radius: 10px;
+  	-webkit-box-shadow: 26px 10px 33px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 26px 10px 33px 0px rgba(0,0,0,0.75);
+box-shadow: 26px 10px 33px 0px rgba(0,0,0,0.75);
+
+
+}
+.box2 h1{
+	color: white;
+	margin-left: 100px;
+	margin-top: 40px;
+}
+.kotak input{
+	margin-top: 20px;
+	background: none;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid #ffffff;
+	color: white;
+	padding: 12px 20px;
+}
+.kotak{
+	margin-left: 120px;
+}
+.kirim{
+	width: 365px;
+}
+.kirim1{
+	width: 160px;
+}
+.masuk{
+	background: none;
+	width: 225px;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid #ffffff;
+	padding: 12px 20px;
+	color: #ffffff;
+}
+.masuk input{
+	background: transparent;
+}
+.opt{
+	margin-top: 40px;
+	margin-left: 120px;
+	
+}
+.opt label{
+	color: white;
+}
+.btn{
+	background-color: white;
+    width: 130px;
+    padding:1px;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-left: 120px;
+    -webkit-box-shadow: 10px 10px 28px -14px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 28px -14px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 28px -14px rgba(0,0,0,0.75);
+
+}
+.btn p{
+	color: black;
+}
